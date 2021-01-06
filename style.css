@@ -69,14 +69,12 @@ header a{
     width: 100%;
     height: auto;
 }
-
 /* ends welcome section */
 
 /* starts about section */
 #about p{
     margin-bottom: 20px;
 }
-
 /* ends about section */
 
 /* starts project section */
@@ -110,12 +108,11 @@ header a{
     margin: 10px 0;
     font-size: 1.3rem;
 }
-
 /* ends project section */
 
 /* starts chat section */
 .chat_sect{
-    height: 300px;
+    height: 250px;
     margin: 50px auto;
     background-image: url(images/bg_chat.png);
     background-size: 100% auto;
@@ -123,7 +120,6 @@ header a{
     width: 70%;
 
 }
-
 .chat{
     float: left;
     width: 45%;
@@ -144,20 +140,17 @@ header a{
     padding: 10px 20px;
     background-image: linear-gradient(45deg, #F59560, #FAD262);
     color: white;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
-
 /* ends chat section */
 
 /* starts contact section */
 .contact_sect{
     height: 520px;
-    background-color: rgb(159, 190, 202);
+    background-color: rgb(202, 199, 159);
 }
 
 .contact_half{
-    /* background-color: coral; */
         width: 35%;
         margin: 0 7%;
         float: left;
@@ -182,6 +175,19 @@ button{
     color: white;
     border-radius: 5px;
     border: none;
+}
+.contact_half h2{
+    padding: 3% 0;
+    margin-bottom: 30px;
+}
+.contact_half p{
+    margin-bottom: 30px;
+}
+
+.social_icon a img{
+    width: 70px;
+    margin-top: 100px;
+    margin-right: 40px;
 }
 /* ends contact section */
 
