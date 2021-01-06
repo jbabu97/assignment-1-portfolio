@@ -72,6 +72,18 @@ header a{
 
 /* ends welcome section */
 
+/* starts about section */
+#about p{
+    margin-bottom: 20px;
+}
+
+.download{
+    width: 12px;
+    margin-right: 10px;
+}
+/* ends about section */
+
+
 
 /* starts footer section */
 footer{
