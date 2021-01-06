@@ -126,7 +126,6 @@ header a{
 
 .chat{
     float: left;
-    /* padding: 0 5%; */
     width: 45%;
 }
 #left h1{
@@ -150,6 +149,41 @@ header a{
 }
 
 /* ends chat section */
+
+/* starts contact section */
+.contact_sect{
+    height: 520px;
+    background-color: rgb(159, 190, 202);
+}
+
+.contact_half{
+    /* background-color: coral; */
+        width: 35%;
+        margin: 0 7%;
+        float: left;
+    }
+form{
+    padding: 5%;
+}
+
+input, textarea{
+    width: 90%;
+    padding: 8px;
+    border: none;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+textarea{
+    resize: none;
+}
+button{
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #F59560, #FAD262);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+/* ends contact section */
 
 /* starts footer section */
 footer{
