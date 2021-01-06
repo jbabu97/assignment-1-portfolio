@@ -71,3 +71,16 @@ header a{
 }
 
 /* ends welcome section */
+
+
+/* starts footer section */
+footer{
+    background-color: #363958;
+    padding: 1% 5%;
+    
+}
+footer p{
+    color: lightslategray;
+    text-align: center;
+}
+/* ends footer section */
