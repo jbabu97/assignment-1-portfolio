@@ -62,7 +62,7 @@ header a{
     text-decoration: none;
     padding: 10px 20px;
     background-image: linear-gradient(45deg, #F59560, #FAD262);
-    color: black;
+    color: white;
     border-radius: 5px;
 }
 .profile_img{
@@ -113,7 +113,43 @@ header a{
 
 /* ends project section */
 
+/* starts chat section */
+.chat_sect{
+    height: 300px;
+    margin: 50px auto;
+    background-image: url(images/bg_chat.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 70%;
 
+}
+
+.chat{
+    float: left;
+    /* padding: 0 5%; */
+    width: 45%;
+}
+#left h1{
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding: 20% 0;
+    margin-left: 60px;
+}
+#right {
+    text-align: right;
+    padding: 11% 0;
+}
+#right a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #F59560, #FAD262);
+    color: white;
+    border-radius: 5px;
+    
+}
+
+/* ends chat section */
 
 /* starts footer section */
 footer{
