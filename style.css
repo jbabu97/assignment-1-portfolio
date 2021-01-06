@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.3rem;
+}
+p{
+    font-size: 1.15rem;
+    text-align: justify;
+}
+
+.clear{
+    content: ' ';
+    clear: both;
+    display: table;
+}
+
+/* starts header */
+header{
+    background-color: #363958;
+    padding: 1% 5%;
+    text-align: right;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+/* ends header */
